@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchBar"
+        android:title=""
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_order"
+        android:icon="@drawable/ic_order"
+        android:orderInCategory="100"
+        android:title="Order"
+        app:actionViewClass="android.widget.ImageButton"
+        app:showAsAction="ifRoom" />
+
+</menu>

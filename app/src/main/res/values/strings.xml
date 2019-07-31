@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_todolist">Todo Lists</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_exit">Exit</string>
+
+
+    <string name="loginErrorMessage">Check the username and password. Please!</string>
+    <string name="todoListPageTitle">Hi, %1s</string>
+    <string name="todoListPageSubTitle">welcome to To Do List</string>
+
+    <string name="loginTitle">Sıgn In</string>
+    <string name="loginUserTitle">Username</string>
+    <string name="loginPassTitle">Password</string>
+    <string name="loginSignInTitle">S ı g n  I n</string>
+    <string name="loginNoAccountTitle">Do you have not an account? </string>
+    <string name="loginSignUpTitle">Sign Up</string>
+    <string name="loginUserNameError">Please fill the Username field!</string>
+    <string name="loginPasswordError">Please fill the Password field!</string>
+    <string name="signUpSuccessMessage">SignUp Success!</string>
+    <string name="signUpErrorMessage">Registration is available. Please check E-Mail or Username!</string>
+
+    <string name="todoListSearch">Search TodoList…</string>
+    <string name="todoListItemSearch">Search TodoList Item…</string>
+
+    <string name="todoListPriorityLow">Low</string>
+    <string name="todoListPriorityNormal">Normal</string>
+    <string name="todoListPriorityHigh">High</string>
+
+    <string name="signUpNameHint">Name &amp; Surname</string>
+    <string name="signUpUserNameHint">Username</string>
+    <string name="signUpPasswordHint">Password</string>
+    <string name="signUpEmailHint">E-Mail Address</string>
+    <string name="signUpBtnSubmit">SUBMIT</string>
+
+
+    <string name="shortcutAddTodoListCode">addtodolist</string>
+
+    <string name="signUpNameError">Please fill the Name &amp; Surname!</string>
+    <string name="signUpUserNameError">Please fill the Username!</string>
+    <string name="signUpPasswordError">Please fill the Password!</string>
+    <string name="signUpEmailError">Please fill the E-Mail Address!</string>
+
+    <string name="todolistAddListNameError">Please fill the List Name!</string>
+
+    <string name="todolistAddListItemNameError">Please fill the List Item Name!</string>
+    <string name="todolistAddListItemDescError">Please fill the List Description Name!</string>
+
+
+    <string name="todoListItemDesc"><b>Description:</b> %1s</string>
+    <string name="todoListItemCreateDate"><b>Create Date:</b> %1s</string>
+    <string name="todoListItemRemainingDate">%1s days left.</string>
+    <string name="todoListItemStatusContinue">Continues</string>
+    <string name="todoListItemStatusCompleted">Completed</string>
+    <string name="todoListItemStatusExpired">Expired</string>
+    <string name="todolistTitle">To Do List</string>
+    <string name="todolistItemTitle">%1s Items</string>
+
+
+    <string name="todoListMoreUpdate">Update</string>
+    <string name="todoListMoreDelete">Delete</string>
+    <string name="todoListMoreShare">Share</string>
+
+    <string name="todolistShareBottomSheetPreview">Pdf Preview</string>
+    <string name="todolistShareBottomSheetEmail">Send Email</string>
+
+    <string name="todolistPdfExportMailSubject">About ToDoList</string>
+    <string name="todolistPdfExportMailInfo">Sending Mail…</string>
+    <string name="YES">Yes</string>
+    <string name="CANCEL">Cancel</string>
+
+
+    <string name="todoListItemDeleteTask">Todo List Item Deleted</string>
+    <string name="todoListItemDeleteTaskMessage">Do you want to delete Todo List Item?</string>
+    <string name="todoListItemEndTask">Todo List Item Task Finished</string>
+    <string name="todoListItemEndTaskMessage">Are you sure want to finish item status?</string>
+    <string name="todoListItemDelete">Delete</string>
+    <string name="todoListItemUpdate">Update</string>
+    <string name="todoListItemComplete">Complete</string>
+    <string name="todoListItemDialogHeaderNewItem">Create Todo List Item</string>
+    <string name="todoListItemDialogHeaderUpdateItem">Update Todo List Item</string>
+    <string name="todoListItemDialogSubmitNew">Create</string>
+    <string name="todoListItemDialogSubmitUpdate">Update</string>
+    <string name="todoListItemDialogClose">Close</string>
+    <string name="todoListItemDialogName">List Item Name</string>
+    <string name="todoListItemDialogDeadline">List Item Deadline</string>
+    <string name="todoListItemDialogDescription">List Item Description</string>
+    <string name="todoListDialogHeaderCreate">Create Todo List</string>
+    <string name="todoListDialogHeaderUpdate">Update Todo List</string>
+    <string name="todoListDialogName">List Name</string>
+    <string name="todoListDialogPriority">List Priority</string>
+    <string name="todoListEmptyMessage">Empty Todo List</string>
+    <string name="todoListItemsEmptyMessage">Empty Todo List Items</string>
+
+
+    <string name="todoListItemDeleteMessage">Todo List Item is deleted.</string>
+    <string name="todoListItemStatusMessage">Todo List Item is finish.</string>
+    <string name="todoListItemUpdateMessage">Todo List Item is update.</string>
+    <string name="todoListItemCreateMessage">Todo List Item is create.</string>
+
+    <string name="todoListDeleteMessage">Todo List is deleted.</string>
+    <string name="todoListStatusMessage">Todo List is finish.</string>
+    <string name="todoListUpdateMessage">Todo List is update.</string>
+    <string name="todoListCreateMessage">Todo List is create.</string>
+    <string name="todoListPriority">Priority</string>
+    <string name="todoListFilterKeyword">Type keyword</string>
+    <string name="todoListFilterStatus">Status</string>
+    <string name="todoListFilterCompleted">Completed</string>
+    <string name="todoListFilterContinued">Continued</string>
+    <string name="todoListFilterExpired">Expired</string>
+
+    <string name="pdfStatusCompleted">Completed</string>
+    <string name="pdfStatusContinued">Continued</string>
+    <string name="pdfColumnFirst">Number</string>
+    <string name="pdfColumnSecond">Name</string>
+    <string name="pdfColumnThird">Description</string>
+    <string name="pdfColumnFourth">Deadline</string>
+    <string name="pdfColumnFifth">Create Date</string>
+    <string name="pdfColumnSixth">Status</string>
+
+    <string name="todoListShareCreatePdfMessage">Pdf Creator: %1s</string>
+    <string name="todoListShareSendMailMessage">Sending Mail…</string>
+    <string name="search">Search</string>
+    <string name="pdfStatusExpired">Expired</string>
+    <string name="todoListContinuedCount">%1s Tasks</string>
+
+
+</resources>

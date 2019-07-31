@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_20" />
+
+    <LinearLayout
+        android:id="@+id/llTodoList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewLine"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="@color/grey_5">
+
+            <ImageView
+                android:id="@+id/ivCircleView"
+                android:layout_width="@dimen/spacing_xlarge"
+                android:layout_height="@dimen/spacing_xlarge"
+                android:layout_centerInParent="true"
+                android:src="@drawable/circle_border"
+                android:tint="@color/blue_500" />
+
+            <RelativeLayout
+                android:id="@+id/layoutChecked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/spacing_xmlarge"
+                    android:layout_height="@dimen/spacing_xmlarge"
+                    android:src="@drawable/shape_circle"
+                    android:tint="@color/blue_grey_600" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    app:srcCompat="@drawable/ic_done" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@color/grey_20" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_mlarge">
+
+
+            <TextView
+                android:id="@+id/tvListName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="List Name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvListAddDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:gravity="center_vertical"
+                android:text="Date"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/grey_40" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/llTodoList"
+        android:background="@color/grey_20" />
+
+    <ImageView
+        android:id="@+id/ibMore"
+        android:layout_width="@dimen/spacing_xlarge"
+        android:layout_height="@dimen/spacing_xlarge"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/spacing_middle"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        android:layout_marginRight="@dimen/spacing_medium"
+        android:tint="@color/grey_90"
+        app:srcCompat="@drawable/ic_more_vert" />
+
+
+</RelativeLayout>

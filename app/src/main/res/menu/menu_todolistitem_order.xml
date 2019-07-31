@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_createdate"
+        android:orderInCategory="100"
+        android:title="Create Date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deadline"
+        android:orderInCategory="100"
+        android:title="Deadline"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_name"
+        android:orderInCategory="100"
+        android:title="Name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="100"
+        android:title="Status"
+        app:showAsAction="never" />
+
+</menu>

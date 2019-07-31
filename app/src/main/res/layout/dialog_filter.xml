@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.allattentionhere.fabulousfilter.AAH_FilterView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:visibility="invisible"
+        tools:ignore="MissingPrefix"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/spacing_mlarge"
+            android:paddingTop="@dimen/spacing_mlarge"
+            android:paddingRight="@dimen/spacing_mlarge"
+            android:paddingBottom="@dimen/spacing_mlarge">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todoListFilterStatus"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/grey_90" />
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:flexWrap="wrap"
+                app:justifyContent="flex_start">
+
+                <Button
+                    android:id="@+id/btnFilterCompleted"
+                    android:layout_width="@dimen/spacing_xxxxlarge"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded_grey_outline"
+                    android:text="@string/todoListFilterCompleted"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey_40" />
+
+                <Button
+                    android:id="@+id/btnFilterContinued"
+                    android:layout_width="@dimen/spacing_xxxxlarge"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded_grey_outline"
+                    android:text="@string/todoListFilterContinued"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey_40" />
+
+                <Button
+                    android:id="@+id/btnFilterExpired"
+                    android:layout_width="@dimen/spacing_xxxxlarge"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded_grey_outline"
+                    android:text="@string/todoListFilterExpired"
+                    android:textAllCaps="false"
+                    android:textColor="@color/grey_40" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llButtons"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xxxlarge"
+            android:layout_alignParentBottom="true"
+            android:background="@color/brown_50"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/btnClearSelection"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginRight="@dimen/spacing_small"
+                android:layout_weight="1"
+                android:background="@drawable/states_todolistitem_filter_button"
+                android:backgroundTint="@color/colorAccent"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/ic_refresh" />
+
+            <ImageButton
+                android:id="@+id/btnFilter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/states_todolistitem_filter_button"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/ic_check" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</com.allattentionhere.fabulousfilter.AAH_FilterView>

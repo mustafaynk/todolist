@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/grey_5"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing_medium"
+    android:paddingBottom="@dimen/spacing_medium">
+
+
+    <LinearLayout
+        android:id="@+id/lyt_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_middle"
+        android:paddingRight="@dimen/spacing_middle">
+
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="@dimen/spacing_large"
+            android:tint="@color/blue_500"
+            app:srcCompat="@drawable/ic_preview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
+            android:text="@string/todolistShareBottomSheetPreview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/grey_90" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey_10" />
+
+    <LinearLayout
+        android:id="@+id/lyt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_middle"
+        android:paddingRight="@dimen/spacing_middle">
+
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="@dimen/spacing_large"
+            android:tint="@color/blue_500"
+            app:srcCompat="@drawable/ic_email" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
+            android:text="@string/todolistShareBottomSheetEmail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/grey_90" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

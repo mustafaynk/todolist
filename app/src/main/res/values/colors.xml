@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+    <color name="colorPrimaryLightLight">#4999DF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentLight">#FF80AB</color>
+
+    <!--Material color list from https://material.io/guidelines/style/color.html-->
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="overlay_light_20">#33FFFFFF</color>
+    <color name="overlay_light_30">#4DFFFFFF</color>
+    <color name="overlay_light_40">#66FFFFFF</color>
+    <color name="overlay_light_50">#8FFFFFF0</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="red_50">#FFEBEE</color>
+    <color name="red_500">#F44336</color>
+
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+
+    <color name="blue_grey_600">#546E7A</color>
+
+    <color name="indigo_600">#3949AB</color>
+    <color name="indigo_600_overlay">#CC283593</color>
+
+    <color name="brown_50">#EFEBE9</color>
+
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_700">#616161</color>
+
+    <color name="overlay_green_10">#1A00FF00</color>
+
+    <array name="listItemColors">
+        <item>@color/green_500</item> <!-- Priority Low -->
+        <item>@color/orange_500</item> <!-- Priority Normal -->
+        <item>@color/red_500</item> <!-- Priority High -->
+    </array>
+</resources>
