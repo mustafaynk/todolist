@@ -19,7 +19,7 @@ To Do List is a task management Android application.
 - Search by name into Todo List.
 
 
-###Installation
+### Installation
 ---
 Download project into Github.(or git clone with VCS into Android Studio)
  - Open Android Studio.
@@ -27,13 +27,13 @@ Download project into Github.(or git clone with VCS into Android Studio)
  - Run project(Shift + F10)
 
 
-###Application Architecture
+### Application Architecture
 ---
 - IDE: Android Studio
 - Database: Android Room Database
 - Programming Language: Java
 
-###Demo Interview
+### Demo Interview
 ---
 <img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/preview.gif?raw=true" style="display: block;
   margin-left: auto;
@@ -41,7 +41,7 @@ Download project into Github.(or git clone with VCS into Android Studio)
   width: 40%;">
 
 
-###Application Previews
+### Application Previews
 ---
 
 <img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/dashboard.png?raw=true" style="display: block;
@@ -89,7 +89,7 @@ Download project into Github.(or git clone with VCS into Android Studio)
 
 ---
 
-######[Application APK](https://github.com/mustafaynk/todolist/blob/master/appgallery/ToDoList.apk?raw=true)
+###### [Application APK](https://github.com/mustafaynk/todolist/blob/master/appgallery/ToDoList.apk?raw=true)
 
 ---
-###End
+### End
