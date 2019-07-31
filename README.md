@@ -1,9 +1,8 @@
-# To Do List
-
-<img src="https://raw.githubusercontent.com/mustafaynk/todolist/master/appgallery/logo.png" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;">
+# To Do List  
+  
+<p align="center">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/mustafaynk/todolist/master/appgallery/logo.png">
+</p>
 
 To Do List is a task management Android application. 
 
@@ -35,56 +34,47 @@ Download project into Github.(or git clone with VCS into Android Studio)
 
 ### Demo Interview
 ---
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/preview.gif?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="50%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/preview.gif?raw=true">
+</p>
 
 
 ### Application Previews
 ---
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/dashboard.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/dashboard.png?raw=true">
+</p>
 > Dashboard Page.
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistcreate.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistcreate.png?raw=true">
+</p>
 > Todo List Create Dialog.
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistmultiselection.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistmultiselection.png?raw=true">
+</p>
 > Todo List Multi Selection Features.
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistactions.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistactions.png?raw=true">
+</p>
 > Todo List Actions.
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemcreate.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemcreate.png?raw=true">
+</p>
 > Todo List Item Create Dialog.
 
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemdetail.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemdetail.png?raw=true">
+</p>
 > Todo List Item Details and Actions.
 
-
-<img src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemfilter.png?raw=true" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;">
+<p align="center">
+  <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemfilter.png?raw=true">
+</p>
 > Todo List Item Filter Dialog.
 
 ---
