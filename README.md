@@ -1,7 +1,5 @@
 # To Do List
 
-![](https://raw.githubusercontent.com/mustafaynk/todolist/master/appgallery/logo.png =24x24)
-
 <img src="https://raw.githubusercontent.com/mustafaynk/todolist/master/appgallery/logo.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
