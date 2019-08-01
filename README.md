@@ -45,37 +45,37 @@ Download project into Github.(or git clone with VCS into Android Studio)
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/dashboard.png?raw=true">
 </p>
-> Dashboard Page.
+	> Dashboard Page.
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistcreate.png?raw=true">
 </p>
-> Todo List Create Dialog.
+	> Todo List Create Dialog.
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistmultiselection.png?raw=true">
 </p>
-> Todo List Multi Selection Features.
+	> Todo List Multi Selection Features.
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistactions.png?raw=true">
 </p>
-> Todo List Actions.
+	> Todo List Actions. 
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemcreate.png?raw=true">
 </p>
-> Todo List Item Create Dialog.
+	> Todo List Item Create Dialog.
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemdetail.png?raw=true">
 </p>
-> Todo List Item Details and Actions.
+	> Todo List Item Details and Actions.
 
 <p align="center">
   <img width="40%" src="https://github.com/mustafaynk/todolist/blob/master/appgallery/todolistitemfilter.png?raw=true">
 </p>
-> Todo List Item Filter Dialog.
+	> Todo List Item Filter Dialog.
 
 ---
 
